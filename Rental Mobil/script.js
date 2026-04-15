@@ -64,6 +64,30 @@ function loadCarsData() {
 }
 
 
+// Sample reviews data
+const defaultReviews = [
+    {
+        author: 'John Smith',
+        rating: 5,
+        text: 'Excellent service! The car was clean and well-maintained. Highly recommended!'
+    },
+    {
+        author: 'Sarah Johnson',
+        rating: 5,
+        text: 'Amazing experience. The booking process was smooth and the staff was very helpful.'
+    },
+    {
+        author: 'Michael Brown',
+        rating: 4,
+        text: 'Great selection of cars and competitive prices. Will definitely rent again.'
+    },
+    {
+        author: 'Emma Davis',
+        rating: 5,
+        text: '24/7 support team was fantastic. They helped me with everything I needed.'
+    }
+];
+
 // Load reviews from localStorage or use default
 let reviews = [];
 function loadReviewsData() {
